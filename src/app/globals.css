@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+/* Brand tokens derived from the supplied logo (near-black ground, champagne gold). */
+@theme {
+  --color-ink: #070707;
+  --color-charcoal: #1c1c1c;
+  --color-graphite: #2a2a28;
+  --color-gold: #d4af63;
+  --color-bronze: #c6a15b;
+  --color-gold-deep: #78591f; /* gold for text on light grounds (>=5:1 on ivory and sand) */
+  --color-ivory: #f7f5f0;
+  --color-sand: #eae5db;
+  --color-stone: #5f5b53; /* muted text on light */
+  --color-mist: #b9b4a8; /* muted text on dark */
+
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+
+  --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+html[lang="ar"] {
+  --font-sans: var(--font-arabic), Tahoma, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-arabic), Tahoma, Arial, ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold-deep);
+  outline-offset: 3px;
+}
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--color-gold);
+}
+
+a,
+button,
+summary,
+[role="button"] {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+/* Typography helpers (kept out of utilities so Arabic can reset tracking/case in one place) */
+.display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+}
+html[lang="ar"] .display {
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-gold-deep);
+}
+.on-dark .eyebrow,
+.eyebrow.on-dark {
+  color: var(--color-gold);
+}
+html[lang="ar"] .eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Small caps-style label for nav/buttons. Arabic must not be letter-spaced (it breaks letter joining). */
+.label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+html[lang="ar"] .label {
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(to right, var(--color-gold), transparent);
+}
+html[dir="rtl"] .rule-gold {
+  background: linear-gradient(to left, var(--color-gold), transparent);
+}
+
+/* Reveal: content is visible by default; JS only arms elements that start below the fold. */
+.reveal {
+  transition:
+    opacity 0.8s var(--ease-out-soft),
+    transform 0.8s var(--ease-out-soft);
+}
+.reveal.is-hidden {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal.is-hidden {
+    opacity: 1;
+    transform: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -4rem;
+  z-index: 100;
+  background: var(--color-gold);
+  color: var(--color-ink);
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+}
+.skip-link:focus {
+  top: 1rem;
+}

@@ -1,0 +1,338 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "servicesMenu": "Services menu",
+    "breadcrumb": "Breadcrumb",
+    "homeLogo": "MUZALLAT SIKDAR – home",
+    "switchToLanguage": "Switch language to {language}",
+    "closeLightbox": "Close image viewer",
+    "previous": "Previous image",
+    "next": "Next image",
+    "playVideo": "Play video",
+    "pauseVideo": "Pause video"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "allServices": "All services",
+    "whatsapp": "WhatsApp",
+    "call": "Call"
+  },
+  "lang": {
+    "otherName": "العربية",
+    "otherCode": "ar"
+  },
+  "media": {
+    "inspiration": "",
+    "illustrative": "",
+    "realProject": "Our work"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "viewProject": "View project",
+    "readArticle": "Read article",
+    "requestQuote": "Request a quote",
+    "contactUs": "Contact us",
+    "exploreServices": "Explore our services",
+    "callUs": "Call us",
+    "whatsappUs": "WhatsApp us",
+    "relatedProjects": "Related projects",
+    "otherServices": "Other services",
+    "ourWork": "Our work",
+    "inspiration": "Design inspiration",
+    "inspirationNote": "Illustrative images showing the style of work we can design for you. They are not completed company projects.",
+    "backToProjects": "Back to projects",
+    "backToBlog": "Back to blog",
+    "offerings": "What we offer",
+    "allProjects": "All projects",
+    "published": "Published",
+    "kuwait": "Kuwait",
+    "location": "Location",
+    "year": "Year",
+    "phone": "Phone",
+    "service": "Service",
+    "features": "Project features"
+  },
+  "meta": {
+    "siteName": "MUZALLAT SIKDAR",
+    "home": {
+      "title": "Pergolas, Car Parking Shades & Steel Structures in Kuwait",
+      "description": "MUZALLAT SIKDAR designs and builds premium pergolas, car parking shades, awnings, steel structures and stage doors in Kuwait."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about MUZALLAT SIKDAR, a Kuwait-based company specialising in pergolas, parking shades, awnings, steel structures and stage doors."
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Pergola solutions, car parking shades, awnings, steel structures and stage doors in Kuwait, designed and built by MUZALLAT SIKDAR."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "A selection of real MUZALLAT SIKDAR projects in Kuwait: parking shades, pergolas and custom doors."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Photos and videos of MUZALLAT SIKDAR work, plus design-inspiration images for pergolas, parking shades, awnings, steel structures and doors."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Practical guidance on pergolas, parking shades, awnings and steel structures from MUZALLAT SIKDAR."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Contact MUZALLAT SIKDAR in Kuwait by phone or WhatsApp, or send us your project details."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Kuwait",
+      "title": "Transforming Outdoor Spaces with Elegance & Excellence.",
+      "subtitle": "Premium pergolas, car parking shades, awnings, and custom steel structures designed to elevate your outdoor spaces.",
+      "ctaServices": "Explore Our Services",
+      "ctaContact": "Contact Us"
+    },
+    "intro": {
+      "eyebrow": "About MUZALLAT SIKDAR",
+      "title": "Shade and structure, designed with care.",
+      "p1": "MUZALLAT SIKDAR is a Kuwait-based company specialising in pergolas, car parking shades, awnings, steel structures and stage doors.",
+      "p2": "We design and build outdoor structures that protect, define and elevate the spaces around homes and businesses.",
+      "points": [
+        "Custom design for every site",
+        "Residential and commercial projects",
+        "Pergolas, parking shades, awnings, steel and doors"
+      ],
+      "cta": "More about us"
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Our Services",
+      "subtitle": "Five focused services, each designed and built around your space."
+    },
+    "why": {
+      "eyebrow": "Why us",
+      "title": "Why Choose MUZALLAT SIKDAR",
+      "subtitle": "What you can expect when you work with us.",
+      "items": [
+        {
+          "title": "Tailored to your space",
+          "text": "Every structure is designed around your property, how you use it and your taste, not pulled from a catalogue."
+        },
+        {
+          "title": "Quality materials and finishes",
+          "text": "We choose materials and finishes suited to outdoor use and to the look you want."
+        },
+        {
+          "title": "Careful workmanship",
+          "text": "Clean lines, tidy connections and attention to detail, from fabrication to installation."
+        },
+        {
+          "title": "Focused expertise",
+          "text": "We concentrate on a focused set of services, pergolas, parking shades, awnings, steel structures and doors, and give each our full attention."
+        },
+        {
+          "title": "Direct communication",
+          "text": "Speak to us by phone or WhatsApp and get straight answers about your project."
+        }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Featured Projects",
+      "subtitle": "Real MUZALLAT SIKDAR work, photographed on site.",
+      "cta": "View all projects"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "Our Working Process",
+      "subtitle": "A simple path from your first message to a finished structure.",
+      "steps": [
+        {
+          "title": "Consultation",
+          "text": "Tell us about the space and what you need. Send photos on WhatsApp or arrange a visit."
+        },
+        {
+          "title": "Design & proposal",
+          "text": "We develop a design and agree the details and finishes with you."
+        },
+        {
+          "title": "Fabrication",
+          "text": "Components are fabricated to the agreed design."
+        },
+        {
+          "title": "Installation",
+          "text": "Your structure is installed and finished with care."
+        }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Project Gallery",
+      "subtitle": "A closer look at our work and the styles we can design for you.",
+      "cta": "Open the gallery"
+    },
+    "commitments": {
+      "eyebrow": "Our commitments",
+      "title": "Every project gets the same care.",
+      "items": [
+        "Design that fits your space",
+        "Careful, tidy workmanship",
+        "Clear and honest communication"
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What Our Customers Say"
+    },
+    "cta": {
+      "title": "Ready to transform your outdoor space?",
+      "text": "Tell us about your project. Call or message us on WhatsApp and we will advise on the best solution for your space."
+    },
+    "blog": {
+      "eyebrow": "Journal",
+      "title": "Latest Articles",
+      "subtitle": "Practical guidance on shade, structures and outdoor design.",
+      "cta": "All articles"
+    }
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "A Kuwait-based specialist in outdoor shading and steel structures.",
+    "story": {
+      "eyebrow": "Who we are",
+      "title": "Built around your outdoor space.",
+      "p1": "MUZALLAT SIKDAR is a Kuwait-based company specialising in pergolas, car parking shades, awnings, steel structures and stage doors.",
+      "p2": "We believe shade structures should be as considered as the buildings they serve. That means designing for the site, choosing suitable materials and finishes, and paying attention to detail in how each structure is made and installed.",
+      "p3": "Whether it is a villa driveway, a garden terrace or a commercial frontage, we work with you from the first idea to the finished structure.",
+      "photoCaption": "A MUZALLAT SIKDAR project"
+    },
+    "values": {
+      "eyebrow": "Our approach",
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Design-led",
+          "text": "We start from the site and the way you will use it, then shape the structure around that."
+        },
+        {
+          "title": "Crafted with care",
+          "text": "Clean lines and tidy detailing matter to us as much as strength does."
+        },
+        {
+          "title": "Clear communication",
+          "text": "You can reach us directly by phone or WhatsApp at any stage of your project."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Five services, one standard"
+    }
+  },
+  "servicesPage": {
+    "heroTitle": "Our Services",
+    "heroSubtitle": "Pergolas, parking shades, awnings, steel structures and stage doors.",
+    "intro": "Choose a service to see what we offer, examples of our work and design inspiration.",
+    "illustrationsTitle": "Design inspiration",
+    "workTitle": "Our work",
+    "videoTitle": "See it on video",
+    "ctaTitle": "Planning a {service} project?",
+    "ctaText": "Send us photos or a short description of your space and we will advise on options."
+  },
+  "projectsPage": {
+    "heroTitle": "Projects",
+    "heroSubtitle": "A selection of real MUZALLAT SIKDAR work.",
+    "intro": "Every photograph in this portfolio shows a genuine MUZALLAT SIKDAR project.",
+    "filterLabel": "Filter projects by service",
+    "all": "All",
+    "empty": "No projects in this category yet.",
+    "detailsTitle": "About this project",
+    "ctaTitle": "Want something similar?",
+    "ctaText": "Tell us about your space and we will design a solution to suit it."
+  },
+  "galleryPage": {
+    "heroTitle": "Gallery",
+    "heroSubtitle": "Our work, on video and in photographs, plus design inspiration.",
+    "tabsLabel": "Filter gallery",
+    "all": "All",
+    "real": "Our work",
+    "inspiration": "Design inspiration",
+    "videos": "Videos",
+    "note": " ",
+    "note-ex": "Photos labelled \"Design inspiration\" are AI-generated illustrations of styles we can design. They are not completed projects.",
+    "videoNote": "Short clips from our work. Videos are muted and load only when you press play.",
+    "play": "Play",
+    "viewImage": "View larger image"
+  },
+  
+  "blogPage": {
+    "heroTitle": "Blog",
+    "heroSubtitle": "Practical guidance on shade, structures and outdoor design.",
+    "guidanceNote": "These articles are general guidance. For advice on your own space, contact us.",
+    "ctaTitle": "Have a question about your project?",
+    "ctaText": "Send us a message and we will be glad to help."
+  },
+  "contact": {
+    "heroTitle": "Contact Us",
+    "heroSubtitle": "Tell us about your project, or speak to us directly.",
+    "infoTitle": "Get in touch",
+    "infoText": "The quickest way to reach us is by phone or WhatsApp. You can also send your details using the form.",
+    "phoneLabel": "Phone",
+    "whatsappLabel": "WhatsApp",
+    "areaLabel": "Service area",
+    "areaValue": "Kuwait",
+    "formTitle": "Send us your details",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "email": "Email (optional)",
+      "service": "Service required",
+      "servicePlaceholder": "Select a service",
+      "serviceOther": "Other / not sure yet",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your space and what you have in mind.",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "required": "This field is required.",
+      "nameShort": "Please enter your full name.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageShort": "Please write at least 10 characters.",
+      "serviceInvalid": "Please choose a service.",
+      "fixErrors": "Please correct the highlighted fields.",
+      "successTitle": "Message sent",
+      "successText": "Thank you. We have received your message.",
+      "errorTitle": "We couldn't send your message",
+      "errorText": "The online form is not available right now. Please contact us directly by phone or WhatsApp.",
+      "whatsappFallback": "Send on WhatsApp instead",
+      "whatsappPrefill": "Hello MUZALLAT SIKDAR, I would like to enquire about: {service}.\nName: {name}\nPhone: {phone}\n{message}"
+    }
+  },
+  "footer": {
+    "blurb": "Premium pergolas, car parking shades, awnings, steel structures and stage doors in Kuwait.",
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "madeIn": "Kuwait"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "text": "Please try again, or contact us if the problem continues.",
+    "retry": "Try again"
+  },
+  "floating": {
+    "call": "Call MUZALLAT SIKDAR",
+    "whatsapp": "Chat on WhatsApp"
+  }
+}
